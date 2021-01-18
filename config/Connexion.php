@@ -14,7 +14,7 @@ class Connexion
 
 
         try{
-           $conn = new PDO("mysql:host=h2mysql11;dbname=fhbs_numheritlabscom230", "fhbs_sunuecoledb", "68qb5JmA");
+           $conn = new PDO("mysql:host=*******;dbname=*******", "******", "*********");
 		   // $conn = new PDO("mysql:host=localhost;dbname=dakarapid", "root", "root");
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $conn;
